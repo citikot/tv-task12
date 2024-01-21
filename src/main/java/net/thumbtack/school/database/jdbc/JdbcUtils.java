@@ -9,7 +9,7 @@ public class JdbcUtils {
     private static Connection connection;
     private static final String USER = "test";
     private static final String PASSWORD = "test";
-    private static final String URL = "jdbc:mysql://localhost:3306/ttschool?useUnicode=yes&characterEncoding=UTF8&useSSL=false&serverTimezone=Asia/Omsk&allowPublicKeyRetrieval=true";
+    private static final String URL = "jdbc:mysql://localhost:3306/ttschool?useUnicode=yes&characterEncoding=UTF8&useSSL=false";
 
     public static boolean createConnection() {
         try {
